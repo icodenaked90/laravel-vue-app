@@ -1,43 +1,50 @@
-Purchase Trucks Feature - README
+# laravel-vue-app
+Hello, I have been working now for 7 hours (ish), and i have implemented most of the wanted functionality for the “purchase trucks” Feature.
+A fair warning! I have never done any vue related work, so i had to freestyle alot of the frontend, but i hope that it still shows my dedication.
 
-Hello, and thanks for reviewing my test.
+Its been almost a year since i last looked at laravel backend, but as soon as the first connection to the frontend was working, it kinda got the hang of it again.
 
-I have been working for approximately 7 hours, implementing most of the desired functionality for the "Purchase Trucks" feature. I want to provide a fair warning: I have little experience with Vue-related work, so I had to freestyle a lot of the frontend. Despite this, I hope my dedication shines through.
+I have created a simple OnePage front end with vue, which communicates via API Routes to the backend using axios(i know there might be smarter ways to do this).
 
-It's been almost a year since I last looked at Laravel backend, but as soon as the first connection to the frontend was working, I got the hang of it again.
+Now for the time table:
 
-I created a simple one-page frontend with Vue, communicating through API routes to the backend using axios (I know there might be smarter ways to do this).
+2 hours was spend trying to setup the connection route for login/register and remembering how laravel commands was working again and trying my best to connect it with Vue while making sure that only authenticated users were able to use the functions.
 
-Time Table:
-2 hours: Setting up the connection route for login/register, recalling Laravel commands, and connecting it with Vue. Ensuring only authenticated users can use the functions.
+1 hour was spend writing the frontend forms and button functions, making sure all of the functionality was calling a specific route(like fetch vehicles or fetchusercash)
 
-1 hour: Writing frontend forms and button functions, ensuring all functionality calls specific routes (e.g., fetch vehicles or fetch user cash).
+30 min was spend writing the backend controllers functions.
 
-30 minutes: Writing backend controllers functions.
+1 hour was spend figuring out how to add migrations for both the user table, vehicle table and user vehicle tables.
 
-1 hour: Figuring out how to add migrations for the user table, vehicle table, and user vehicle tables.
+1 hour and 30 min was spend testing the connections between frontend and backend and fixing the mistakes made.
 
-1 hour and 30 minutes: Testing connections between frontend and backend, fixing mistakes.
+1 hour was spend adding seeding for better testing and cleaning up the code to make it more presentable and styling a little on the frontend
 
-1 hour: Adding seeding for better testing, cleaning up the code, and making it more presentable. Styling a little on the frontend.
+That concludes 7 hours of work (approx)
 
-Total time spent: 7 hours (approx)
+#The Features within the application:
 
-Features within the application:
-Login/register/logout functions
-Session tokens for authenticated users
-Input and state validation
-Seeders for generating (users, vehicles)
-Amount of cash remaining
-List of owned trucks
-List of available trucks for purchase
-Features that didn't make it:
-Sell trucks (should be easy to implement)
-Customize trucks (might require reworking the database table)
-Filtered data (with more time, it should be achievable)
-Optimize for heavy load and big tables (testing with a large amount of data was not possible within the time frame)
-I hope to hear from you soon so I can learn from this test.
+1. Login/register/logout functions
+2. Session tokens for authenticated users
+3. input and state validation
+4. Seeders for generating (users, vehicles)
+5. Amount of cash remaining
+6. List of owned trucks
+7. List of availble trucks for purchase
 
-Best Regards,
+#Features that didnt make it:
+1. sell trucks (should be easy to implement)
+2. customize trucks (Would require to maybe rework the database table with possible things to change)
+3. filtered data (with more time i should be able to do it)
+4. Optimize for heavy load and big tables (If i had more time to test it, i could have tested with seeding the database with huge amount of vehicles for example)
+
+I hope to hear from you soon, so i can learn from this test.
+
+Best Regards
 
 Simon
+
+
+
+
+
